@@ -4,7 +4,7 @@
 
 A Telegram Lightning ⚡️ Bitcoin wallet.
 
-This repository contains everything you need to set up and run your own Tip bot and POS facility. If you simply want to use this bot in your group chat without having to install anything just start a conversation with [@Shift.mobiBot](https://t.me/ShiftmobiBot) and invite it into your group chat.
+This repository contains everything you need to set up and run your own Tip bot and POS facility. If you simply want to use this bot in your group chat without having to install anything just start a conversation with [@ShiftMobibot](https://t.me/ShiftMobibot) and invite it into your group chat.
 
 The system automatically creates a POS facility connected to your user. Getting payments in Lightning is immediate and requires no additional software installed and no externa APPs.
 
