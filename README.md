@@ -25,7 +25,7 @@ To build the bot from source, clone the repository and compile the source code.
 
 After the configuration (see below), start it using the command
 
-./LightningTipBot
+5) ./LightningTipBot
 
 ### Configuration
 
