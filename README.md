@@ -20,12 +20,13 @@ To build the bot from source, clone the repository and compile the source code.
 
 1) git clone [https://github.com/DoktorShift/LightningTipBot.git](https://github.com/DoktorShift/ShiftMobiBot.git)
 2) cd LightningTipBot
-3) go build .
-4) cp config.yaml.example config.yaml
+3) export CGO_ENABLED=1
+4) go build .
+5) cp config.yaml.example config.yaml
 
 After the configuration (see below), start it using the command
 
-5) ./LightningTipBot
+6) ./LightningTipBot
 
 ### Configuration
 
