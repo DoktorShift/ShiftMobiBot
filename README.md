@@ -14,8 +14,22 @@ The system now provides also Scrub service. This service can be activated and de
 
 ### Installation
 
-This Bot adds features to the project it is forked from. It has been created to become a suite together to NFC Cards and other services connected. Being an open source project you are welcome to PR or to install yourself. This Bot by default is created with docker and runs a postgreSQL instance as database backend. I marked the Sqlite version as deprecated.
+This Bot adds features from @LightningTipBot. It has been created by massmux to become a suite together to NFC Cards and other services connected. Being an open source project you are welcome to PR or to install yourself. This Bot by default is created with docker and runs a postgreSQL instance as database backend. I marked the Sqlite version as deprecated.
 
+To build the bot from source, clone the repository and compile the source code.
+
+1) git clone [https://github.com/DoktorShift/LightningTipBot.git](https://github.com/DoktorShift/ShiftMobiBot.git)
+2) cd LightningTipBot
+3) go build .
+4) cp config.yaml.example config.yaml
+
+After the configuration (see below), start it using the command
+
+./LightningTipBot
+
+### Configuration
+
+You need to edit config.yaml before you can start the bot.
 
 #### Create a Telegram bot
 
@@ -23,7 +37,15 @@ First, create a new Telegram bot by starting a conversation with the [@BotFather
 
 #### Set up LNbits
 
-Thanks to my friend Calle
+You can either use your own LNbits instance (recommended) or create an account at timecatcher.lnbits.de to use their custodial service (easy).
+
+1) Create a wallet in LNbits (reachable by the bot via lnbits_url).
+2) Get the Admin key in the API Info tab of your user (lnbits_admin_key).
+3) Enable the User Manager extension.
+4) Get the Admin ID of the User Manager (lnbits_admin_id).
+
+Copy&paste these information into config.yaml
+
 
 ## Made with
 
@@ -46,7 +68,3 @@ This is a Lightning Wallet into a Telegram Bot, but more functionalities have be
 
 You can give the use of this Bot to your community. For example a physical shop manager can use this Bot + the NFC Cards + POS facility, all together. They can give the cards to their clients and send cashback for each purchase, thanks to the cashback command. The client will be able to spend the money just using his card everywhere.
 
-## Subprojects using it:
-
-- [sats.mobi](https://www.satsmobi.com)
-- [NEPAY](https://www.nepay.ch)
