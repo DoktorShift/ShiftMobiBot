@@ -18,15 +18,25 @@ This Bot adds features from @LightningTipBot. It has been created by massmux to 
 
 To build the bot from source, clone the repository and compile the source code.
 
-1) git clone [https://github.com/DoktorShift/LightningTipBot.git](https://github.com/DoktorShift/ShiftMobiBot.git)
-2) cd LightningTipBot
-3) export CGO_ENABLED=1
-4) go build .
-5) cp config.yaml.example config.yaml
-
+``` 
+ git clone https://github.com/DoktorShift/ShiftMobiBot.git
+``` 
+``` 
+ cd LightningTipBot
+``` 
+``` 
+ export CGO_ENABLED=1
+``` 
+``` 
+ go build .
+``` 
+``` 
+ cp config.yaml.example config.yaml
+```
 After the configuration (see below), start it using the command
-
-6) ./LightningTipBot
+``` 
+./LightningTipBot
+``` 
 
 ### Configuration
 
@@ -60,12 +70,14 @@ Copy&paste these information into config.yaml
 
 This is a Lightning Wallet into a Telegram Bot, but more functionalities have been added:
 
-- /casback command to show a code to get a CashBack from a shop owner. In this case the amount is received and can be spent using the NFC Card connected to the Bot
-- Activation of the NFC Card can be asked
-- Notifications of Cards activations
 - Integrated full POS service
 - POS Link generation for executing POS on an external device
 - Scrub service for forwarding all incoming payments to an external address, making the POS actually not custodial if activated
+
+## Feature coming soon
+- Activation of the NFC Card can be asked (Feature coming soon)
+- Notifications of Cards activations
+- /casback command to show a code to get a CashBack from a shop owner. In this case the amount is received and can be spent using the NFC Card connected to the Bot
 
 You can give the use of this Bot to your community. For example a physical shop manager can use this Bot + the NFC Cards + POS facility, all together. They can give the cards to their clients and send cashback for each purchase, thanks to the cashback command. The client will be able to spend the money just using his card everywhere.
 
