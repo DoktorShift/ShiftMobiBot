@@ -73,7 +73,7 @@ Maximum amount allowed is 1M Sats. Hit /basics for more info._
 ⚙️ *Commands*
 */tip*: Reply to a message to tip: `/tip <amount> [<memo>]`
 */balance*: Check your balance: `/balance`
-*/send*: Send funds to a user: `/send <amount> @user or user@sats.mobi [<memo>]`
+*/send*: Send funds to a user: `/send <amount> @user or user@yourDomain.de [<memo>]`
 */invoice*: Receive with Lightning: `/invoice <amount> [<memo>]`
 */pay*: Pay with Lightning: `/pay <invoice>`
 */cashback*: QRCODE for receiving cashback.
