@@ -63,9 +63,10 @@ payButtonEmoji = """💸"""
 
 # HELP
 
-helpMessage = """⚡️ *shift.mobi*
-_This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram. Further it can manage NFC Cards.
- Maximum amount allowed is 1M Sats. Hit /basics for more info._
+helpMessage = """⚡️ *shift mobi*
+_This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram. Further it can manage Business-Bitcoin NFC Cards.
+ 
+Maximum amount allowed is 1M Sats. Hit /basics for more info._
 
 %s
 
@@ -76,7 +77,7 @@ _This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram. 
 */invoice*: Receive with Lightning: `/invoice <amount> [<memo>]`
 */pay*: Pay with Lightning: `/pay <invoice>`
 */cashback*: QRCODE for receiving cashback.
-*/activatecard*: Request activation of a SatsMobi NFC Card `/activatecard <CardID>`
+*/activatecard*: Request activation of a Business-Bitcoin NFC Card `/activatecard <CardID>`
 */advanced*: Advanced features.
 */help*: Read this help."""
 
@@ -187,7 +188,7 @@ sendSyntaxErrorMessage     = """Did you enter an amount and a recipient? You can
 sendHelpText               = """📖 Oops, that didn't work. %s
 
 *Usage:* `/send <amount> <user> [<memo>]`
-*Example:* `/send 1000 @SatsMobiBot I just like the bot ❤️`
+*Example:* `/send 1000 @ShiftMobiBot I just like the bot ❤️`
 """
 
 # INVOICE
