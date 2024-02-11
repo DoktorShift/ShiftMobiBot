@@ -19,8 +19,8 @@ lnbits:
   url: "http://127.0.0.1:5000"
   admin_key: "1234"
   admin_id: "1234"
-  webhook_server: "http://0.0.0.0:5588"
-  lnbits_public_url: "link.mylnurl.com"
+  webhook_server: "http://public_ip_VPS:5588"
+  lnbits_public_url: "https://link.mylnurl.com"
 database:
   db_path: "data/bot.db"
   buntdb_path: "data/bunt.db"
