@@ -1,0 +1,12 @@
+[Unit]
+Description=shiftmobi
+
+[Service]
+User=UserName
+WorkingDirectory=/home/dev/ShiftMobiBot
+ExecStart=/home/dev/ShiftMobiBot/LightningTipBot
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
