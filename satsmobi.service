@@ -1,10 +1,10 @@
 [Unit]
-Description=satsmobi
+Description=shiftmobi
 
 [Service]
-User=dev
-WorkingDirectory=/home/dev/SatsMobiBot
-ExecStart=/home/dev/SatsMobiBot/LightningTipBot
+User=UserName
+WorkingDirectory=/home/dev/ShiftMobiBot
+ExecStart=/home/dev/ShiftMobiBot/LightningTipBot
 Restart=always
 RestartSec=3
 
