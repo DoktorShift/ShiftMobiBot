@@ -58,7 +58,34 @@ You can either use your own LNbits instance (recommended) or create an account a
 ![lnbits_setup](https://github.com/DoktorShift/ShiftMobiBot/assets/106493492/53ab010c-e761-44b7-8e26-89d629b3974f)
 
 
-Copy&paste these information into config.yaml
+Copy&Paste these information into config.yaml
+
+
+## Create Systemd Service
+
+When your Bot is gracefully running, create a systemd job to run it 24/7
+
+```
+sudo nano /etc/systemd/system/shiftmobi.service
+```
+
+Copy&Paste this into and crtl+X ENTER to save
+
+```
+[Unit]
+Description=shift.mobi
+
+[Service]
+User=UserName
+WorkingDirectory=Path_to_working_directory
+ExecStart=Path_to_working_directory/LightningTipBot
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+```
+Edit _User, WorkingDirectory, ExecStart regarding_ to your settings.
 
 
 ## Made with
