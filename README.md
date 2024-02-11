@@ -55,6 +55,9 @@ You can either use your own LNbits instance (recommended) or create an account a
 3) Enable the User Manager extension.
 4) Get the Admin ID of the User Manager (lnbits_admin_id).
 
+![lnbits_setup](https://github.com/DoktorShift/ShiftMobiBot/assets/106493492/53ab010c-e761-44b7-8e26-89d629b3974f)
+
+
 Copy&paste these information into config.yaml
 
 
