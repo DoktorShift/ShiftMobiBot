@@ -63,8 +63,8 @@ payButtonEmoji = """💸"""
 
 # HELP
 
-helpMessage = """⚡️ *SatsMobi*
-_This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram and manage NFC Cards. Nostr enabled.
+helpMessage = """⚡️ *shift.mobi*
+_This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram. Further it can manage NFC Cards.
  Maximum amount allowed is 1M Sats. Hit /basics for more info._
 
 %s
@@ -236,7 +236,7 @@ activateScrubHelpText         = """📖 Oops, that didn't work. Do not forget th
 activatecardSendText                  = """
 ✅NFC Card activation requested
 
-You requested the activation for your card %s to your Telegram user. This option is available only for SatsMobi cards, not for generic ones.
+You requested the activation for your card %s to your Telegram user. This option is available only for Business-Bitcoin cards, not for generic ones.
 
 ❗️Please note that activation will take at least 24 hours. When ready you will receive a confirmation message"""
 
