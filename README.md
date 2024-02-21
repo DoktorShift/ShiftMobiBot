@@ -85,7 +85,7 @@ RestartSec=3
 [Install]
 WantedBy=multi-user.target
 ```
-Edit _User, WorkingDirectory, ExecStart regarding_ to your settings.
+--> Edit "_User", "WorkingDirectory", "ExecStart regarding_" to your settings.
 
 
 ## Made with
